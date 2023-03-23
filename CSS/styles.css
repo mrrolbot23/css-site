@@ -1,5 +1,5 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ubuntu", "Monserrat", sans-serif;
 }
 
 body {
@@ -7,8 +7,8 @@ body {
 }
 
 header {
-  background-color: #caf4ff;
   height: 40px;
+  background-color: #d7f7ff;
 }
 
 nav {
@@ -18,8 +18,9 @@ nav {
 
 h1 {
   color: #125e82;
-  font-size: 3em;
-  margin-bottom: 0;
+  font-size: 4rem;
+  font-family: "Sacramento";
+  margin-bottom: 10px;
 }
 
 li {
@@ -37,16 +38,23 @@ a:hover {
 }
 
 .heading {
-  background-color: #caf4ff;
+  background-color: #d7f7ff;
+  margin: 0;
 }
 
 .top-container {
   text-align: center;
 }
 
+.top-container p {
+  color: #125e82;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
 .top-cloud {
   margin: 10px 0 0 0;
-  margin-right: 200px;
+  margin-right: 300px;
   width: 13%;
 }
 
@@ -57,23 +65,58 @@ a:hover {
 }
 
 .mountain {
-  width: 60%;
-  margin-top: 20px;
+  width: 80%;
+  margin-top: 100px;
   margin-bottom: -4px;
+  position: relative;
 }
 
 .dev {
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
-.middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+#middle {
+  color: #ffffff;
+  text-align: -webkit-center;
+  background-color: #125e82;
+  padding: 60px;
 }
 
-.bottom-container {
-  background-color: blue;
-  width: 200px;
+.middle-container img {
   height: 200px;
+  border-radius: 100%;
+}
+
+.middle-container p {
+  width: 65%;
+}
+
+#bottom {
+  color: #125e82;
+  text-align: -webkit-center;
+  background-color: #ffffff;
+}
+
+/* .skill {
+  width: 65%;
+  padding: 20px;
+} */
+
+.description {
+  text-align: left;
+  width: 40%;
+}
+
+.html {
+  float: left;
+}
+
+.skill img {
+  border-radius: 100%;
+  height: 160px;
+}
+
+.css {
+  float: right;
 }
