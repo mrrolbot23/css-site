@@ -83,6 +83,12 @@ a:hover {
   padding: 60px;
 }
 
+#middle h1 {
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
 .middle-container img {
   height: 200px;
   border-radius: 100%;
@@ -94,29 +100,35 @@ a:hover {
 
 #bottom {
   color: #125e82;
-  text-align: -webkit-center;
+  text-align: center;
   background-color: #ffffff;
 }
 
-/* .skill {
-  width: 65%;
-  padding: 20px;
-} */
-
-.description {
+.skill {
+  width: 50%;
+  margin: 100px auto;
   text-align: left;
-  width: 40%;
-}
-
-.html {
-  float: left;
 }
 
 .skill img {
   border-radius: 100%;
+  margin-right: 30px;
   height: 160px;
+  float: left;
 }
 
-.css {
+img.css {
   float: right;
+  margin-left: 30px;
+}
+
+.description p {
+  line-height: 2;
+}
+
+footer,
+footer h1 {
+  text-align: center;
+  background-color: #125e82;
+  color: white;
 }
