@@ -31,6 +31,7 @@ li {
 a {
   text-decoration: none;
   color: #146c94;
+  /* 146c94 */
 }
 
 a:hover {
@@ -139,18 +140,26 @@ footer {
   padding: 20px 0 60px 0;
 }
 
-.fa-brands {
+.socials {
   color: white;
   font-size: 2rem;
   padding: 0 20px;
   transition: 0.4s;
 }
 
-.fa-brands:hover {
+.socials:hover {
   color: #19a7ce;
   transform: scale(1.2);
 }
 
 .copyright {
   margin-top: 100px;
+}
+
+.home-up {
+  font-size: 3rem;
+  color: #19a7ce;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
 }
