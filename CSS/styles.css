@@ -23,6 +23,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  color: #125e82;
+}
+
 li {
   display: inline-block;
   margin: 10px;
@@ -70,6 +74,7 @@ a:hover {
   margin-top: 100px;
   margin-bottom: -4px;
   position: relative;
+  opacity: 0.8;
 }
 
 .dev {
@@ -90,9 +95,13 @@ a:hover {
   margin-top: 0;
 }
 
+#middle h2 {
+  color: white;
+}
+
 .middle-container img {
   height: 200px;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 
 .middle-container p {
@@ -112,7 +121,6 @@ a:hover {
 }
 
 .skill img {
-  border-radius: 100%;
   margin-right: 30px;
   height: 160px;
   float: left;
@@ -125,6 +133,34 @@ img.css {
 
 .description p {
   line-height: 2;
+}
+
+#contact {
+  margin: 60px;
+  text-align: center;
+}
+
+.contact-me p {
+  color: #125e82;
+  width: 40%;
+  margin: auto;
+}
+
+.button {
+  cursor: pointer;
+  margin-top: 60px;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background-color: #125e82;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: #19a7ce;
+  transform: scale(1.2);
 }
 
 footer h1 {
@@ -143,7 +179,7 @@ footer {
 .socials {
   color: white;
   font-size: 2rem;
-  padding: 0 20px;
+  padding: 20px;
   transition: 0.4s;
 }
 
@@ -153,7 +189,7 @@ footer {
 }
 
 .copyright {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .home-up {
