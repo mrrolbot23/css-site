@@ -140,9 +140,13 @@ img.css {
   text-align: center;
 }
 
+.contact-me {
+  width: 100%;
+}
+
 .contact-me p {
   color: #125e82;
-  width: 40%;
+  width: 50vh;
   margin: auto;
 }
 
@@ -198,4 +202,18 @@ footer {
   position: fixed;
   right: 30px;
   bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  img.css {
+    float: none;
+    margin: 0 auto;
+  }
+  .skill-description {
+    width: 45vh;
+  }
+
+  .skill img {
+    float: none;
+  }
 }
