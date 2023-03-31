@@ -210,10 +210,13 @@ footer {
     margin: 0 auto;
   }
   .skill-description {
-    width: 45vh;
+    width: 30vh;
   }
 
   .skill img {
     float: none;
+  }
+  .contact-me p {
+    width: 30vh;
   }
 }
